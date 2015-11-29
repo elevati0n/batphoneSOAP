@@ -22,6 +22,7 @@ except ImportError:
     from urllib import request as urllib2
     from http.cookiejar import CookieJar
 
+
 from . import __author__, __copyright__, __license__, __version__, TIMEOUT
 from .simplexml import SimpleXMLElement, TYPE_MAP, Struct
 
