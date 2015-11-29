@@ -22,7 +22,7 @@ if sys.version > '3':
 import logging
 import re
 import time
-import xml.dom.minidom
+import minidom
 
 from . import __author__, __copyright__, __license__, __version__
 
